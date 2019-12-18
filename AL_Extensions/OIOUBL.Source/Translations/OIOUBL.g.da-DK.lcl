@@ -1,0 +1,3597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="OIOUBL.g" PsrId="63" SrcCul="en-US" TgtCul="da-DK" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="..\..\NAV_Global.lss" Type="Lss" />
+  <Item ItemId=";Codeunit 1465371914 - NamedType 1138880009" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The total Line Discount Amount cannot be negative.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Det samlede linjerabatbeløb må ikke være negativt.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 1465371914 - NamedType 1153294786" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The %1 %2 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[%1 %2 indeholder linjer, hvor Type og Nr. er angivet, men Beskrivelse er tom. Dette er ikke tilladt i et OIOUBL-bilag, som muligvis bliver oprettet på baggrund af det bogførte bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 1465371914 - NamedType 115538199" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[cannot be negative]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[må ikke være negativ]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 1465371914 - NamedType 1306537046" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The total Line Amount cannot be negative.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Det samlede linjebeløb må ikke være negativt.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 1465371914 - NamedType 1658550504" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The posting has been interrupted to respect the warning.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Bogføringen er afbrudt for at overholde advarslen.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 1465371914 - NamedType 2798939796" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA["You must specify the External Document No. in Sales Header Document Type='%1', No.='%2'.\\If you are using OIOUBL, this field is mandatory regardless of the value in the Ext. Doc. No. Mandatory field in Sales & Receivables Setup."]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA["Du skal angive det eksterne bilagsnr. i salgshovedbilagstype='%1', nr.='%2'.\\Hvis du bruger OIOUBL, er dette felt obligatorisk uanset værdien i feltet Eksternt bilagsnr. obl. i Opsætning af salg og tilgodehavender."]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 1465371914 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 1465371914 - NamedType 3912533089" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The %1 %2 contains lines in which the Unit of Measure field is empty. This is not permitted for an OIOUBL document that is to be created from the posted document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[%1 %2 indeholder linjer, hvor feltet Enhed er tomt. Dette er ikke tilladt i et OIOUBL-bilag, der skal oprettes på baggrund af det bogførte bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 1465371914 - NamedType 953587966" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The %1 %2 contains lines in which either the Type, the No. or the Description is empty. Such lines will not be taken into account when creating an OIOUBL document.\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[%1 %2 indeholder linjer, hvor enten Type, Nr. eller Beskrivelse er tom. Disse linjer medregnes ikke, når der oprettes et OIOUBL-bilag.\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 1932373592 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 2131230027 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 2657778153 - NamedType 1153294786" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The Reminder %1 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Rykkeren %1 indeholder linjer, hvor Type og Nr. er angivet, men Beskrivelse er tom. Dette er ikke tilladt i et OIOUBL-bilag, som muligvis bliver oprettet på baggrund af det bogførte bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 2657778153 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 2657778153 - NamedType 4030921609" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The issuing has been interrupted to respect the warning.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Oprettelsen er afbrudt for at overholde advarslen.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 2657778153 - NamedType 953587966" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The Reminder %1 contains lines in which either the Type or the No. is empty. Such lines will not be taken into account when creating an OIOUBL document.\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Rykkeren %1 indeholder linjer, hvor enten Type eller Nr. er tom. Disse linjer medregnes ikke, når der oprettes et OIOUBL-bilag.\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 3053074927 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 3729083530 - NamedType 1153294786" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The Finance Charge Memo %1 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Rentenotaen %1 indeholder linjer, hvor Type og Nr. er angivet, men Beskrivelse er tom. Dette er ikke tilladt i et OIOUBL-bilag, som muligvis bliver oprettet på baggrund af det bogførte bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 3729083530 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 3729083530 - NamedType 4030921609" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The issuing has been interrupted to respect the warning.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Oprettelsen er afbrudt for at overholde advarslen.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 3729083530 - NamedType 953587966" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The Finance Charge Memo %1 contains lines in which either the Document No. or the No. is empty. Such lines will not be taken into account when creating an OIOUBL document./Do you want to continue?]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Rentenotaen %1 indeholder linjer, hvor enten Bilagsnr. eller Nr. er tom. Disse linjer medregnes ikke, når der oprettes et OIOUBL-bilag./Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 3787735282 - NamedType 460728139" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[should be %1 characters long]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[skal have en længde på %1 tegn]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 3787735282 - NamedType 959112201" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The customer must be Danish.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Kunden skal være dansk.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 3936791220 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 4014227374 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 445766061 - NamedType 1153294786" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The %1 %2 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[%1 %2 indeholder linjer, hvor Type og Nr. er angivet, men Beskrivelse er tom. Dette er ikke tilladt i et OIOUBL-bilag, som muligvis bliver oprettet på baggrund af det bogførte bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 445766061 - NamedType 1658550504" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The posting has been interrupted to respect the warning.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Bogføringen er afbrudt for at overholde advarslen.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 445766061 - NamedType 2859471764" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[cannot be negative]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[må ikke være negativ]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 445766061 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 445766061 - NamedType 3912533089" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The %1 %2 contains lines in which the Unit of Measure field is empty. This is not allowed for an OIOUBL document which might be created from the posted document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[%1 %2 indeholder linjer, hvor feltet Enhed er tomt. Dette er ikke tilladt i et OIOUBL-bilag, som muligvis bliver oprettet på baggrund af det bogførte bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 445766061 - NamedType 4088936152" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The total Line Amount cannot be negative.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Det samlede linjebeløb må ikke være negativt.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 445766061 - NamedType 610579619" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The total Line Discount Amount cannot be negative.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Det samlede linjerabatbeløb må ikke være negativt.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 445766061 - NamedType 953587966" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The %1 %2 contains lines in which either the Type, the No. or the Description is empty. Please be aware that such lines will not be taken into account when creating an OIOUBL document.\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[%1 %2 indeholder linjer, hvor enten Type, Nr. eller Beskrivelse er tom. Bemærk, at disse linjer ikke medregnes, når der oprettes et OIOUBL-bilag.\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 798499703 - NamedType 3502196155" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Codeunit 87117224 - NamedType 1887298019" ItemType=";Codeunit - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS" UsrLk="true">
+      <Val><![CDATA[XML File(*.xml)|*.xml]]></Val>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3035100042 - Control 3737215627 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the available profile IDs that can be used for electronic invoicing of the public sector in Denmark.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver de tilgængelige profil-id'er, som kan bruges til elektronisk fakturering af den offentlige sektor i Danmark.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3035100042 - Control 538163542 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the code for the Offentlig Information Online UBL (OIOUBL) profile.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver koden for Offentlig Information Online UBL (OIOUBL)-profilen.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 1176583840 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the international bank account number of your primary bank account.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den primære bankkontos internationale bankkontonummer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 2109083573 - Property 2879900210" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account details]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontodetaljer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 2183731558 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the bank's branch number.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver bankens registreringsnummer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 2599741663 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the SWIFT code (international bank identifier code) of your primary bank.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver SWIFT-koden (internationalt bank-id) for din primære bank.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 2759183782 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the postal code.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver postnummer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 2776613673 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the company's bank account number.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver virksomhedens bankkontonummer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 2961552353 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the company's name and corporate form such as Aps. or A/S.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver virksomhedens navn og selskabsform, f.eks. ApS eller A/S.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 3168444338 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the company's address.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver virksomhedens adresse.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 382407342 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the company's VAT registration number.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver virksomhedens CVR-nummer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 3952910319 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the country/region of the address.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver adressens land/område.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 444048401 - Property 2879900210" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Fill in either]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Udfyld et af dem]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 634743559 - Property 2879900210" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[or]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[eller]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 3172652121 - Control 714791889 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the company's city.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver virksomhedens by.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 720253252 - Control 1389960272 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic reminders.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske rykkere.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 720253252 - Control 152881633 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic credit memos.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske kreditnotaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 720253252 - Control 3651937062 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the default profile that you use in the electronic documents that you send to customers in the Danish public sector.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den standardprofil, som du vil bruge til de elektroniske bilag, som du sender til debitorer i den danske offentlige sektor.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 720253252 - Control 4004248617 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic finance charge memos.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske rentenotaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Page 720253252 - Control 940671709 - Property 2001309823" ItemType=";Page - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic invoices.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske fakturaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1344584502 - Action 1508892236 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[F&unctions]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Funk&tioner]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1344584502 - Action 2103005105 - Property 2001309823" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create an electronic version of the current document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret en elektronisk version af det aktuelle bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1344584502 - Action 2103005105 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Finance Charge Memo]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektronisk rentenota]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1880922246 - Action 3491354398 - Property 2001309823" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create an electronic version of the current document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret en elektronisk version af det aktuelle bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1880922246 - Action 3491354398 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Sales Credit Memo]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektronisk salgskreditnota]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 21353424 - Action 1059434536 - Property 2001309823" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create an electronic version of the current document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret en elektronisk version af det aktuelle bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 21353424 - Action 1059434536 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Invoice]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektronisk faktura]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2146471783 - Action 2530658111 - Property 2001309823" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create an electronic version of the current document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret en elektronisk version af det aktuelle bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2146471783 - Action 2530658111 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Finance Charge Memo]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektronisk rentenota]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3155273158 - Action 1059434536 - Property 2001309823" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create an electronic version of the current document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret en elektronisk version af det aktuelle bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3155273158 - Action 1059434536 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Invoice]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektronisk faktura]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3155273158 - Action 1508892236 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[F&unctions]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Funk&tioner]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3576717900 - Action 1059434536 - Property 2001309823" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create an electronic version of the current document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret en elektronisk version af det aktuelle bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3576717900 - Action 1059434536 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Credit Memo]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektronisk kreditnota]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3576717900 - Action 1508892236 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[F&unctions]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Funk&tioner]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Action 1059434536 - Property 2001309823" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create an electronic version of the current document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret en elektronisk version af det aktuelle bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Action 1059434536 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Credit Memo]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektronisk kreditnota]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Action 1508892236 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[F&unctions]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Funk&tioner]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Action 1059434536 - Property 2001309823" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create an electronic version of the current document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret en elektronisk version af det aktuelle bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Action 1059434536 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Invoice]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektronisk faktura]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Action 1508892236 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[F&unctions]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Funk&tioner]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 501980936 - Action 1508892236 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[F&unctions]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Funk&tioner]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 501980936 - Action 2103005105 - Property 2001309823" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create an electronic version of the current document.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret en elektronisk version af det aktuelle bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 501980936 - Action 2103005105 - Property 2879900210" ItemType=";PageExtension - Action" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Reminder]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektronisk rykker]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1012559283 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1012559283 - Control 2779371529 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1012559283 - Control 3095252104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1012559283 - Control 3095583229 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1012559283 - Control 3392906730 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1012559283 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1222741669 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer who you will send the invoice to.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver kontokoden for den debitor, som du vil sende fakturaen til.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1344584502 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1344584502 - Control 2779371529 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1344584502 - Control 3095252104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1344584502 - Control 3095583229 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1344584502 - Control 3392906730 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1344584502 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1354157115 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer who you will send the credit memo to.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver kontokoden for den debitor, som du vil sende kreditnotaen til.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1402733168 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 1456988694 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 1389960272 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic reminders.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske rykkere.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 1389960272 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Reminder Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Rykkersti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 152881633 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic credit memos.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske kreditnotaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 152881633 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Cr. Memo Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kreditnotasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 3651937062 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the default profile that you use in the electronic documents that you send to customers in the Danish public sector.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den standardprofil, som du vil bruge til de elektroniske bilag, som du sender til debitorer i den danske offentlige sektor.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 3651937062 - Property 3830149458" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Default Profile Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Standardprofilkode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 3857469827 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Output Paths]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Outputstier]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 3970487108 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[OIOUBL]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[OIOUBL]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 4004248617 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic finance charge memos.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske rentenotaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 4004248617 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Fin. Chrg. Memo Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Rentenotasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 940671709 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic invoices.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske fakturaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2217635177 - Control 940671709 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Invoice Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Fakturasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2257681360 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2375302088 - Control 1470516358 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2375302088 - Control 3095583229 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2375302088 - Control 491483755 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that this customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som denne debitor kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2375302088 - Control 698465781 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 2301941973 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 2301941973 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 2615331202 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 2615331202 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that the customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som debitoren kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 897539873 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 897539873 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 979903104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 2516129578 - Control 979903104 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 255663659 - Control 698465781 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3095261412 - Control 538163542 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies if the payment term is associated with a contract or specific terms.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver, om betalingsbetingelsen er knyttet til en kontrakt eller bestemte vilkår.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3155273158 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer, based on the GLN field in the original sales order.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren, baseret på feltet GLN i den oprindelige salgsordre.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3155273158 - Control 3001618318 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the customer's reference.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens reference.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3155273158 - Control 3095583229 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3155273158 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that this customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som denne debitor kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3155273158 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer who you will send the invoice to.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver kontokoden for den debitor, som du vil sende fakturaen til.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3249536815 - Control 1639690342 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic credit memos.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske kreditnotaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3249536815 - Control 1639690342 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Service Cr. Memo Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Servicekreditnotasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3249536815 - Control 4186803522 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the path and name of the folder where you want to store the files for electronic invoices.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver stien til og navnet på den mappe, hvor du vil gemme filer for elektroniske fakturaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3249536815 - Control 4186803522 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Service Invoice Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Servicefakturasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3249536815 - Control 901033786 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[OIOUBL Output paths]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[OIOUBL-outputstier]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 2301941973 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 2301941973 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 2615331202 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 2615331202 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that the customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som debitoren kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 897539873 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 897539873 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 979903104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 341639772 - Control 979903104 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3504961273 - Control 698465781 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3518481801 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3524395669 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3524395669 - Control 3001618318 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies Your Reference.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver din reference.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3524395669 - Control 3095583229 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3524395669 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that the customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som debitoren kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3524395669 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 354415291 - Control 698465781 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 2301941973 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 2301941973 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 2615331202 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 2615331202 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that the customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som debitoren kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 897539873 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 897539873 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 979903104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3570045267 - Control 979903104 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3576717900 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer, based on the GLN field in the original sales order.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren, baseret på feltet GLN i den oprindelige salgsordre.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3576717900 - Control 3001618318 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the customer's reference.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens reference.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3576717900 - Control 3095583229 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3576717900 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that this customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som denne debitor kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3576717900 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer who you will send the invoice to.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver kontokoden for den debitor, som du vil sende fakturaen til.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3735423755 - Control 698465781 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer, based on the GLN field in the original sales order.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren, baseret på feltet GLN i den oprindelige salgsordre.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 2301941973 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 2301941973 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 2615331202 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 2615331202 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that this customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som denne debitor kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer who you will send the invoice to.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver kontokoden for den debitor, som du vil sende fakturaen til.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 897539873 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 897539873 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 979903104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3793403163 - Control 979903104 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3888199597 - Control 1847549155 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the amount including VAT for the whole document. The field may be filled automatically.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver beløb inkl. moms for hele bilaget. Feltet udfyldes muligvis automatisk.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 3888199597 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4017187340 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4064331809 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4068654994 - Control 447982215 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the three character currency code that is required for currencies that are used in electronic invoices.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den valutakode på tre tegn, der kræves for valutaer, som bruges på elektroniske fakturaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4129571841 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer, based on the GLN field in the original sales order.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren, baseret på feltet GLN i den oprindelige salgsordre.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4129571841 - Control 2779371529 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4129571841 - Control 3095252104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4129571841 - Control 3095583229 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4129571841 - Control 3392906730 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4129571841 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer who you will send the invoice to.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver kontokoden for den debitor, som du vil sende fakturaen til.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 415198515 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4214448853 - Control 3952910319 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the ISO 3166-1 code for the country/region that you are doing business with.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver ISO 3166-1-koden for det land/område, du handler med.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 2301941973 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 2301941973 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 2615331202 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 2615331202 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 897539873 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 897539873 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 979903104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4242705117 - Control 979903104 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4263100351 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4263100351 - Control 3001618318 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the customer's reference.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens reference.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4263100351 - Control 3095583229 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4263100351 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that the customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som debitoren kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4263100351 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4271043301 - Control 2301941973 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4271043301 - Control 2615331202 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4271043301 - Control 897539873 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 4271043301 - Control 979903104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer. ]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren. ]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer, based on the GLN field in the original sales order.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren, baseret på feltet GLN i den oprindelige salgsordre.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 2301941973 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 2301941973 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 2615331202 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 2615331202 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that this customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som denne debitor kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer who you will send the invoice to.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver kontokoden for den debitor, som du vil sende fakturaen til.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 897539873 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 897539873 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 979903104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 442323289 - Control 979903104 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 501980936 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 501980936 - Control 2779371529 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 501980936 - Control 3095252104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 501980936 - Control 3095583229 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 501980936 - Control 3392906730 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 501980936 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 1470516358 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the GLN location number for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver GLN-lokationsnummeret for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 2301941973 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the role of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver rollen for kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 2301941973 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 2615331202 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the email address of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver mailadressen på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 2615331202 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 897539873 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the fax number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver faxnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 897539873 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 979903104 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the telephone number of the contact person at the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver telefonnummeret på kontakten hos debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 55728046 - Control 979903104 - Property 2879900210" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 638604442 - Control 698465781 - Property 1295455071" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 798849402 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code of the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver debitorens kontokode.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 864730241 - Control 4067661428 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies if this customer requires a profile code for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver, om debitoren kræver en profilkode til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 864730241 - Control 491483755 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the profile that this customer requires for electronic documents.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver den profil, som denne debitor kræver til elektroniske bilag.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";PageExtension 864730241 - Control 698465781 - Property 2001309823" ItemType=";PageExtension - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies the account code for the customer.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver kontokoden for debitoren.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 1661391820 - Control 3959405189 - Property 2879900210" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Options]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Indstillinger]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 1661391820 - Control 816368762 - Property 2001309823" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies if you want to record the related interactions with the involved contact person in the Interaction Log Entry table.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver, om du vil registrere de relaterede interaktioner med den involverede kontakt i tabellen Interaktionslogpost.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 1661391820 - Control 816368762 - Property 2879900210" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Log Interaction]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Logfør interaktion]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2023497663 - Control 18652612 - Property 2879900210" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Options]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Indstillinger]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2023497663 - Control 816368762 - Property 2001309823" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies if you want to record the related interactions with the involved contact person in the Interaction Log Entry table.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver, om du vil registrere de relaterede interaktioner med den involverede kontakt i tabellen Interaktionslogpost.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2023497663 - Control 816368762 - Property 2879900210" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Log Interaction]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Logfør interaktion]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2454303400 - Control 18652612 - Property 2879900210" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Options]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Indstillinger]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2454303400 - Control 816368762 - Property 2001309823" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies if you want to record the related interactions with the involved contact person in the Interaction Log Entry table.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver, om du vil registrere de relaterede interaktioner med den involverede kontakt i tabellen Interaktionslogpost.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2454303400 - Control 816368762 - Property 2879900210" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Log Interaction]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Logfør interaktion]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 3108180649 - Control 18652612 - Property 2879900210" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Options]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Indstillinger]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 3108180649 - Control 816368762 - Property 2001309823" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Specifies if you want to record the related interactions with the involved contact person in the Interaction Log Entry table.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Angiver, om du vil registrere de relaterede interaktioner med den involverede kontakt i tabellen Interaktionslogpost.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 3108180649 - Control 816368762 - Property 2879900210" ItemType=";Report - Control" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Log Interaction]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Logfør interaktion]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 1661391820 - NamedType 1101420471" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more invoices that match your filter criteria are not electronic invoices and will be skipped.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere fakturaer, som opfylder filterkriterierne, bliver sprunget over, da de ikke er elektroniske fakturaer.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 1661391820 - NamedType 1556380518" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Successfully created %1 electronic invoice(s).]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er oprettet %1 elektronisk(e) faktura(er).]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 1661391820 - NamedType 3480457110" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more invoices that match your filter criteria have been created before.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere fakturaer, som stemmer overens med dine filterkriterier, er oprettet tidligere.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 1661391820 - NamedType 3590955825" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[There is nothing to create.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er intet at oprette.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2023497663 - NamedType 1121851201" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more electronic finance charges that match your filter criteria have been created before.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere elektroniske rentenotaer, som opfylder filterkriterierne, er blevet oprettet tidligere.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2023497663 - NamedType 1556380518" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Successfully created %1 electronic finance charges.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er oprettet %1 elektroniske rentenotaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2023497663 - NamedType 3590955825" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[There is nothing to create.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er intet at oprette.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2023497663 - NamedType 478773981" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more issued finance charges that match your filter criteria are not electronic finance charges and will be skipped.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere af de udstedte rentenotaer, som opfylder filterkriterierne, bliver sprunget over, da de ikke er elektroniske rentenotaer.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 238714916 - NamedType 1121851201" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more credit memos that match your filter criteria have been created before.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere kreditnotaer, som opfylder filterkriterierne, er blevet oprettet tidligere.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 238714916 - NamedType 1556380518" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Successfully created %1 electronic credit memo(s).]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er oprettet %1 elektronisk(e) kreditnota(er).]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 238714916 - NamedType 3590955825" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[There is nothing to create.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er intet at oprette.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 238714916 - NamedType 478773981" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more credit memos that match your filter criteria are not electronic credit memos and will be skipped.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere kreditnotaer, som opfylder filterkriterierne, bliver sprunget over, da de ikke er elektroniske kreditnotaer.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2454303400 - NamedType 1121851201" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more credit memos that match your filter criteria have been created before.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere kreditnotaer, som opfylder filterkriterierne, er blevet oprettet tidligere.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2454303400 - NamedType 1556380518" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Successfully created %1 electronic credit memos.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er oprettet %1 elektroniske kreditnotaer.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2454303400 - NamedType 3590955825" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[There is nothing to create.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er intet at oprette.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2454303400 - NamedType 478773981" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more credit memos that match your filter criteria are not electronic credit memos and will be skipped.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere kreditnotaer, som opfylder filterkriterierne, bliver sprunget over, da de ikke er elektroniske kreditnotaer.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 3108180649 - NamedType 1121851201" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more electronic reminders that match your filter criteria have been created before.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere elektroniske rykkere, som opfylder filterkriterierne, er blevet oprettet tidligere.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 3108180649 - NamedType 1556380518" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Successfully created %1 electronic reminders.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er oprettet %1 elektroniske rykkere.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 3108180649 - NamedType 3590955825" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[There is nothing to create.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er intet at oprette.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 3108180649 - NamedType 478773981" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more issued reminders that match your filter criteria are not electronic reminders and will be skipped.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere af de udstedte rykkere, som opfylder filterkriterierne, bliver sprunget over, da de ikke er elektroniske rykkere.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 626116848 - NamedType 1101420471" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more invoices that match your filter criteria are not electronic invoices and will be skipped.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere fakturaer, som opfylder filterkriterierne, bliver sprunget over, da de ikke er elektroniske fakturaer.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 626116848 - NamedType 1556380518" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Successfully created %1 electronic invoice(s).]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er oprettet %1 elektronisk(e) faktura(er).]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 626116848 - NamedType 3480457110" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[One or more invoices that match your filter criteria have been created before.\\Do you want to continue?]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[En eller flere fakturaer, som stemmer overens med dine filterkriterier, er oprettet tidligere.\\Vil du fortsætte?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 626116848 - NamedType 3590955825" ItemType=";Report - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[There is nothing to create.]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Der er intet at oprette.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 1661391820 - Property 2879900210" ItemType=";Report - Report" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Invoices]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektroniske fakturaer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2023497663 - Property 2879900210" ItemType=";Report - Report" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Elec. Fin. Chrg. Memos]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektroniske rentenotaer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 2454303400 - Property 2879900210" ItemType=";Report - Report" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Credit Memos]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektroniske kreditnotaer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Report 3108180649 - Property 2879900210" ItemType=";Report - Report" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Create Electronic Reminders]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Opret elektroniske rykkere]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Table 3362259864 - Field 3737215627 - Property 2879900210" ItemType=";Table - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Profile]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Profil]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Table 3362259864 - Field 538163542 - Property 2879900210" ItemType=";Table - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";Table 3362259864 - NamedType 1458864712" ItemType=";Table - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[At least one OIOUBL profile needs to exist.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Mindst én OIOUBL-profil skal findes.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 1014637951 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 1014637951 - Field 3095583229 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 1014637951 - Field 491483755 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Profile Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Profilkode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 1014637951 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 152500644 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 152500644 - Field 2779371529 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 152500644 - Field 3095252104 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 152500644 - Field 3095583229 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 152500644 - Field 3392906730 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Coontact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 152500644 - Field 3633465435 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Elec. Fin. Charge Memo Created]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Elektronisk rentenota er oprettet]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 152500644 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 1801716184 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2054303147 - Field 1389960272 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Reminder Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Rykkersti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2054303147 - Field 152881633 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Cr. Memo Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kreditnotasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2054303147 - Field 3651937062 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Default Profile Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Standardprofilkode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2054303147 - Field 4004248617 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Fin. Chrg. Memo Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Rentenotasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2054303147 - Field 940671709 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Invoice Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Fakturasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2137679277 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2137679277 - Field 2171989557 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Electronic Reminder Created]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Elektronisk rykker er oprettet]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2137679277 - Field 2779371529 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2137679277 - Field 3095252104 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2137679277 - Field 3095583229 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2137679277 - Field 3392906730 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2137679277 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2254828034 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2435267110 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2435267110 - Field 2301941973 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kundekontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2435267110 - Field 2615331202 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Mailadresse til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2435267110 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2435267110 - Field 897539873 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Faxnummer til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2435267110 - Field 979903104 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Telefonnummer til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2471236884 - Field 3952910319 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Country/Region Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Lande-/områdekode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2522012900 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2522012900 - Field 2728957782 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Electronic Credit Memo Created]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Elektronisk kreditnota er oprettet]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2522012900 - Field 3095583229 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2522012900 - Field 491483755 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Profile Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Profilkode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2522012900 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2766054287 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2766054287 - Field 2779371529 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2766054287 - Field 3095252104 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2766054287 - Field 3095583229 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2766054287 - Field 3392906730 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2766054287 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2870539612 - Field 447982215 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Currency Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Valutakode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2954038588 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3095261412 - Field 538163542 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3249536815 - Field 1639690342 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Service Cr. Memo Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Servicekreditnotasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3249536815 - Field 4186803522 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Service Invoice Path]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Servicefakturasti]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3274756772 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3274756772 - Field 2301941973 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kundekontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3274756772 - Field 2615331202 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Mailadresse til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3274756772 - Field 491483755 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Profile Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Profilkode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3274756772 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3274756772 - Field 897539873 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Faxnummer til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3274756772 - Field 979903104 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Telefonnummer til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3347141990 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3541931442 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3541931442 - Field 2779371529 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens faxnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3541931442 - Field 3095252104 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens telefonnummer]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3541931442 - Field 3095583229 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3541931442 - Field 3392906730 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens mailadresse]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3541931442 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3544167776 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3544167776 - Field 1528802016 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Electronic Invoice Created]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Elektronisk faktura er oprettet]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3544167776 - Field 3095583229 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3544167776 - Field 491483755 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Profile Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Profilkode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3544167776 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3890267005 - Field 4067661428 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Profile Code Required]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Profilkode kræves]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3890267005 - Field 491483755 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Profile Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Profilkode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3890267005 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3955044619 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3967370585 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 465752541 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 479262143 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 479262143 - Field 2301941973 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kundekontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 479262143 - Field 2615331202 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Mailadresse til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 479262143 - Field 2728957782 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Electronic Credit Memo Created]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Elektronisk kreditnota er oprettet]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 479262143 - Field 491483755 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Profile Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Profilkode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 479262143 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 479262143 - Field 897539873 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Faxnummer til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 479262143 - Field 979903104 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Telefonnummer til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 634830819 - Field 1470516358 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 634830819 - Field 1528802016 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Electronic Invoice Created]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Elektronisk faktura er oprettet]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 634830819 - Field 2301941973 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[OIOUBL-Sell-to Contact Role]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[OIOUBL-kundekontaktens rolle]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 634830819 - Field 2615331202 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[OIOUBL-Sell-to Contact E-Mail]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[OIOUBL-mailadresse til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 634830819 - Field 491483755 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Profile Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Profilkode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 634830819 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 634830819 - Field 897539873 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[OIOUBL-Sell-to Contact Fax No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[OIOUBL-faxnummer til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 634830819 - Field 979903104 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Sell-to Contact Phone No.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Telefonnummer til kundekontakt]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 702636924 - Field 1110520839 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Charge Category]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Gebyrkategori]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 702636924 - Field 1110520839 - Property 62802879" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA["General Rebate","General Fine","Freight Charge",Duty,Tax]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA["Generel rabat","Generel bøde","Fragtomkostninger",Afgift,Skat]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 714642311 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 807753035 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 80978112 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 9721095 - Field 698465781 - Property 2879900210" ItemType=";TableExtension - Field" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[Account Code]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Kontokode]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 1014637951 - NamedType 3502196155" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2054303147 - NamedType 1764743520" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[OIOUBL path of the OIOMXL file is missing. Please Correct it.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[OIOUBL-stien til OIOMXL-filen mangler. Ret den venligst.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2054303147 - NamedType 3900895965" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[OIOUBL path of the OIOMXL file is missing. Do you want to update it now?]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[OIOUBL-stien til OIOMXL-filen mangler. Vil du opdatere den nu?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2254828034 - NamedType 739368154" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[You cannot enter %1 if %2 is "%3".]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Du kan ikke angive %1, hvis %2 er "%3".]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 2766054287 - NamedType 3502196155" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3249536815 - NamedType 1764743520" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[OIOUBL path of the OIOMXL file is missing. Please Correct it.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[OIOUBL-stien til OIOMXL-filen mangler. Ret den venligst.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3249536815 - NamedType 3900895965" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[OIOUBL path of the OIOMXL file is missing. Do you want to update it now?]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[OIOUBL-stien til OIOMXL-filen mangler. Vil du opdatere den nu?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3274756772 - NamedType 3502196155" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3541931442 - NamedType 3502196155" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3890267005 - NamedType 3502196155" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[does not contain a valid, 13-digit GLN]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[indeholder ikke et gyldigt 13-cifret GLN]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3955044619 - NamedType 3599942508" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[You cannot enter %1 if %2 is "%3".]]></Val>
+      <Tgt Cat="Text" CP="DOS" Stat="Loc" Appr="PreApproved" Orig="New">
+        <Val><![CDATA[Du kan ikke angive %1, hvis %2 er "%3".]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 3967370585 - NamedType 739368154" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[You cannot enter %1 if %2 is "%3".]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Du kan ikke angive %1, hvis %2 er "%3".]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 80978112 - NamedType 739368154" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[You cannot enter %1 if %2 is "%3".]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Du kan ikke angive %1, hvis %2 er "%3".]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 8651240 - NamedType 1498947560" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[The needed information to support OIOUBL is not provided in %1.]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[De nødvendige oplysninger til understøttelse af OIOUBL er ikke angivet i %1.]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 8651240 - NamedType 1665574169" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[You need to provide information in %1 to support OIOUBL. Do you want to update it now?]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Du skal angive oplysninger i %1 til understøttelse af OIOUBL. Vil du opdatere dem nu?]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+  <Item ItemId=";TableExtension 9721095 - NamedType 739368154" ItemType=";TableExtension - GlobalVariable" PsrId="63" InstFlg="true" Leaf="true">
+    <Str Cat="Text" CP="DOS">
+      <Val><![CDATA[You cannot enter %1 if %2 is "%3".]]></Val>
+      <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+        <Val><![CDATA[Du kan ikke angive %1, hvis %2 er "%3".]]></Val>
+      </Tgt>
+    </Str>
+    <Disp Icon="Str" Expand="true" />
+  </Item>
+</LCX>

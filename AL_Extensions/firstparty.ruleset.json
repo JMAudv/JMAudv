@@ -1,0 +1,21 @@
+{
+    "name": "Name",
+    "description": "Description",
+    "rules": [
+        {
+            "id": "PTE0005",
+            "action": "None",
+            "justification": "App.json 'target' property must not be set to 'Internal'. Keep reminder but need to identified other errors"
+        },
+        {
+            "id": "PTE0001",
+            "action": "None",
+            "justification": "<object> has an ID of [#######]. It must be between 50000 and 99999. Need to clarify licensing issues with VAR ID range"
+        },
+        {
+            "id": "PTE0002",
+            "action": "None",
+            "justification": "<field in tableextension> has an ID of [#######]. It must be between 50000 and 99999. Need to clarify licensing issues with VAR ID range"
+        }
+        ]
+}

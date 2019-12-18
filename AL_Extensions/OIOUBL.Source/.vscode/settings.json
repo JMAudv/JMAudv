@@ -1,0 +1,17 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${AppSourceCop}",
+        "${PerTenantExtensionCop}",
+        "${UICop}"
+    ],
+    "al.ruleSetPath": "../firstparty.ruleset.json",
+    "al.assemblyProbingPaths": [
+        "./.netpackages",
+        "c:/Windows/assembly",
+        "C:/Program Files/Microsoft Dynamics 365 Business Central/140/Service/Add-ins",
+        "C:/Program Files (x86)/Microsoft Dynamics 365 Business Central/140/RoleTailored Client/Add-ins"
+    ],
+    "editor.formatOnSave": true
+}

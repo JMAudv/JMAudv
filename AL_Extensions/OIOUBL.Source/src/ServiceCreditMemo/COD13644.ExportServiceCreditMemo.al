@@ -426,4 +426,14 @@ codeunit 13644 "OIOUBL-Export Service Cr.Memo"
         TaxAmountParam := TaxAmountParam + AmountIncludingVAT - Amount;
     end;
 
+    local procedure MyProcedure()
+    var
+        myInt: Integer;
+    begin
+        
+    end;
+local procedure MyProcedure()
+begin
+    
+end;
 }

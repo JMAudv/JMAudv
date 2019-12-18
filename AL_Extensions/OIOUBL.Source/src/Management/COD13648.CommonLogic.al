@@ -323,7 +323,6 @@ codeunit 13648 "OIOUBL-Common Logic"
         //DSMJMA#3001 ->
         PaymentMeansElement := XmlElement.Create('PaymentMeans', DocNameSpaceCAC);
 
-        //PaymentMeansElement.Add(XmlElement.Create('ID', DocNameSpaceCBC, '1'));
         PaymentMeansElement.Add(XmlElement.Create('PaymentMeansCode', DocNameSpaceCBC, '93'));
         PaymentMeansElement.Add(XmlElement.Create('PaymentDueDate', DocNameSpaceCBC,
           OIOUBLDocumentEncode.DateToText(DueDate)));
@@ -333,12 +332,6 @@ codeunit 13648 "OIOUBL-Common Logic"
             XmlAttribute.Create('schemeAgencyID','320'),
             XmlAttribute.Create('schemeID','urn:oioubl:id:paymentid-1.1'),
             Kortart));
-        //PaymentMeansElement.Add(
-        //  XmlElement.Create('PaymentChannelCode', DocNameSpaceCBC,
-        //    XmlAttribute.Create('listAgencyID', '320'),
-        //    XmlAttribute.Create('listID', 'urn:oioubl:codelist:paymentchannelcode-1.1'),
-        //    GetPaymentChannelCode()));
-        //InsertPayeeFinancialAccount(PaymentMeansElement);
         PaymentMeansElement.Add(XmlElement.Create('CreditAccount', DocNameSpaceCBC, ''));
         PaymentMeansElement.Add(XmlElement.Create('AccountID', DocNameSpaceCBC, "Fik/Giro-No."));
         InvoiceElement.Add(PaymentMeansElement);
